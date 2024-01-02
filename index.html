@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(114, 129, 229);
+            text-align: center;
+           
+            
+        }
+        #heading{
+            margin: 5px;
+            padding: 5px;;
+            font-size: 55px;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 1.5rem;
+            
+        }
+        .game{
+            
+           
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+        }
+       
+        .cont{
+            margin-top: 11vh;
+            height: 60vh;
+            width: 60vh;
+           
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+           
+          
+        }
+        .box{
+            background-color: antiquewhite;
+            width: 18vh;
+            height: 18vh;
+            color: rgb(70, 4, 4);
+            font-size: 35px;
+            font-weight: 700;
+            gap: 0.3;
+            margin: 3px;
+            border-radius: 1.5rem;
+            border: none;
+        }
+        .button{
+            margin: 25px;
+            width: 13vh;
+            height: 5vh;
+            padding: 3px;
+            border-radius: 3px;
+            border: none;
+            background-color: rgb(37, 37, 55);
+            color: blanchedalmond;
+            font-style: bold;
+        }
+        .winmsg{
+            margin-top: 19px;
+            color: rgba(88, 6, 6, 0.781);
+            font-size: 45px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading"> Tic Tac Toe Game</h1>
+    <div class="winmsg"></div>
+    
+<div class="game"><div class="cont">
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box"></button>
+    
+    <button class="box"></button>
+    </div></div>
+<button class="button">Reset</button>
+<script src="tic.js"></script></body>
+</html>
